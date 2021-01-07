@@ -1,0 +1,217 @@
+/*段落样式*/
+p{
+color:gray;
+}
+
+/*顶部导航栏样式*/
+.top{
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度*/
+    width:100%;
+    margin-left: 0;
+    background:#66cdaa;
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 0;
+	left:0;
+	float:left;
+	opacity:0.98;
+    box-shadow:2px 2px 2px gray;
+}
+
+.top ul{
+    /* 清除ul标签的默认样式 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	opacity:0.98;
+}
+
+.top li {
+    float:left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:0;  /* 两个li之间的距离*/
+    overflow:hidden;
+	margin-top:0px;
+	opacity:0.98;
+}
+
+.top li a{
+   /* 设置链接内容显示的格式*/
+    display:block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white;
+    text-align: center;
+    padding: 16px 20px;
+    overflow: hidden;
+    text-decoration: none; /* 去除下划线 */
+	width:60px;
+	opacity:0.98;
+}
+
+.top li a:hover{
+    /* 鼠标选中时背景变为深绿色 */
+    background-color: #4587b4;
+	opacity:0.9;
+}
+
+.top ul li ul{
+    /* 设置二级菜单 */
+    margin-left: 0.2px;
+    background:rgb(102, 205, 170);
+	position: fixed;
+    display: none; /* 默认隐藏二级菜单的内容 */
+
+	opacity:0.98;
+}
+
+/* 二级菜单li内容的显示 */
+.top ul li ul li{
+    float:none;
+    text-align: center;
+    position:relative;
+	z-index:99999;
+	opacity:0.98;
+    box-shadow:2px 2px 2px gray;
+}
+
+/* 鼠标选中二级菜单内容时 */
+.top ul li:hover ul{
+    display:block;
+	opacity:0.98;
+}
+
+/*背景样式*/
+body{
+    background:#d3fdef;
+}
+
+ a{
+ /*清除超链接样式*/
+    margin-left: 0.5%;
+	text-decoration: none; /* 去除下划线 */
+	overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+/*超链接样式*/
+a:link{
+  color:gray;
+}
+a:visited{
+  color:gray;
+}
+.container a:hover{
+  color:#ff00ff;
+  text-shadow:2px 2px 2px #FF0000;
+}
+.url1 a:hover{
+  color:#ff00ff;
+  text-shadow:2px 2px 2px #FF0000;
+}
+.footer a:hover{
+  color:#ff00ff;
+  text-shadow:2px 2px 2px #FF0000;
+}
+a:hover:{
+  color:#FF00FF
+}
+a:active{
+  color:0000ff;
+}
+
+.footer{
+/*版权声明样式*/
+  margin-top: 50px;
+  height: 20px;
+  background-color:#7fffd4;
+  clear:both;
+  width:auto;
+  text-align:center;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+  white-space:nowrap;
+  float:right;
+  text-transform:uppercase;
+  box-shadow:-2px -2px -2px gray;
+}
+
+/*search和about等位置*/
+.search{
+  margin-top:160px;
+  top:80px;
+  background-color:#d3fdef;
+  text-align:middle;
+}
+
+.about{
+  margin-top:100px;
+  top:80px;
+  position:absolute;
+  z-index:-1;
+}
+
+.p{
+  color:gray;
+  top:270px;
+  position:relative;
+}
+
+.url1{
+  background:#d3fdef;
+  position:absolute;
+  z-index:-1;
+}
+
+.container{
+  position:absolute;
+  z-index:-1;
+  margin-top:100px;
+}
+
+/*按钮样式*/
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*图片透明度*/
+.img{
+  opacity:0.75;
+  text-shadow:2px 2px 2px 
+}
+
+/*阴影*/
+.container h4{
+  text-shadow:2px 2px 2px gray;
+}
+
+.url1 h4{
+  text-shadow:2px 2px 2px gray;
+}
+
+.about a:hover{
+  color:#ff00ff;
+  text-shadow:2px 2px 2px #FF0000;
+}
+
+/*分栏*/
+.container{
+  column-count:5;
+  column-width:200px;
+}
+
+.container p{
+  column-span:all
+}
