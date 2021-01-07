@@ -75,7 +75,7 @@
             },
             {
                 "image": "https://s3.ax1x.com/2021/01/06/sVIusH.jpg",
-                "preview": ""
+                "preview": "https://s3.ax1x.com/2021/01/06/sVIusH.jpg"
             }
         ],
         "pathRes": "./res",
@@ -122,7 +122,7 @@
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "YLUIÏµÍ³ÉèÖÃÃæ°å",
+            "desc": "YLUIç³»ç»Ÿè®¾ç½®é¢æ¿",
             "icon": {
                 "type": "fa",
                 "bg": "#436fde",
@@ -145,7 +145,7 @@
                 "width": "920",
                 "height": "590"
             },
-            "title": "ÏµÍ³ÉèÖÃ",
+            "title": "ç³»ç»Ÿè®¾ç½®",
             "url": "./res/apps/yl-system/index.html",
             "customTile": "",
             "urlRandomToken": true
@@ -155,7 +155,7 @@
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "¼òµ¥µÄÈ¡É«Æ÷",
+            "desc": "ç®€å•çš„å–è‰²å™¨",
             "icon": {
                 "type": "fa",
                 "bg": "#3289c7",
@@ -178,7 +178,7 @@
                 "width": "207",
                 "height": "239"
             },
-            "title": "È¡É«Æ÷",
+            "title": "å–è‰²å™¨",
             "url": "./res/apps/colorPicker/colorPicker.html",
             "customTile": "",
             "urlRandomToken": true
@@ -188,7 +188,7 @@
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "ä¯ÀÀÆ÷",
+            "desc": "æµè§ˆå™¨",
             "icon": {
                 "type": "fa",
                 "content": "internet-explorer",
@@ -211,7 +211,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ä¯ÀÀÆ÷",
+            "title": "æµè§ˆå™¨",
             "url": "./res/apps/browser/index.html",
             "customTile": "",
             "urlRandomToken": true
@@ -221,7 +221,7 @@
             "autoRun": 1,
             "background": false,
             "badge": 0,
-            "desc": "YLUI¹Ù·½ºóÌ¨·şÎñ",
+            "desc": "YLUIå®˜æ–¹åå°æœåŠ¡",
             "icon": {
                 "type": "fa",
                 "content": "yoast",
@@ -244,7 +244,7 @@
                 "height": "80",
                 "width": "160"
             },
-            "title": "YLUI¹Ù·½ºóÌ¨·şÎñ",
+            "title": "YLUIå®˜æ–¹åå°æœåŠ¡",
             "url": "https://server.ylui.yuri2.cn",
             "customTile": "",
             "urlRandomToken": true
@@ -343,7 +343,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "Î÷´°Öò",
+            "title": "è¥¿çª—çƒ›",
             "url": "http://lib.xcz.im/library",
             "customTile": "",
             "urlRandomToken": true
@@ -376,7 +376,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "¼ò¼Ç",
+            "title": "ç®€è®°",
             "url": "http://xxdlyzbb.gitee.io/vue-memo/",
             "customTile": "",
             "urlRandomToken": true
@@ -409,8 +409,8 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "¼¸ºÎ»­°å",
-            "url": "¼¸ºÎ»­°å",
+            "title": "å‡ ä½•ç”»æ¿",
+            "url": "å‡ ä½•ç”»æ¿",
             "customTile": "",
             "urlRandomToken": true
         },
@@ -475,7 +475,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ÓĞµÀ·­Òë",
+            "title": "æœ‰é“ç¿»è¯‘",
             "url": "https://fanyi.youdao.com/",
             "customTile": "",
             "urlRandomToken": true
@@ -508,7 +508,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ÔªËØÖÜÆÚ±í",
+            "title": "å…ƒç´ å‘¨æœŸè¡¨",
             "url": "http://www.hxzxs.cn/zqb/elements/index.htm",
             "customTile": "",
             "urlRandomToken": true
@@ -541,7 +541,7 @@
                 "height": "y",
                 "width": "x"
             },
-            "title": "°×°å",
+            "title": "ç™½æ¿",
             "url": "http://tool.mkblog.cn/whiteboard/",
             "customTile": "",
             "urlRandomToken": true
@@ -574,7 +574,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ÎªÖªÔÆ±Ê¼Ç",
+            "title": "ä¸ºçŸ¥äº‘ç¬”è®°",
             "url": "https://www.wiz.cn/zh-cn",
             "customTile": "",
             "urlRandomToken": true
@@ -617,7 +617,7 @@
             "autoRun": 0,
             "background": false,
             "badge": 0,
-            "desc": "ÕâÊÇÒ»¿îjqueryÊµÏÖ¼òµ¥¼ÆËãÆ÷´úÂë¡£¸Ãjquery¼ÆËãÆ÷Ê¹ÓÃ Bootstrap 4½øĞĞ²¼¾Ö£¬²¢½áºÏmath.jsÊıÑ§¿â£¬ÊµÏÖ¼òµ¥µÄ¼Ó¼õ³Ë³ıºÍÆ½·½£¬¿ª·½µÈÊıÑ§¼ÆËã¡£",
+            "desc": "è¿™æ˜¯ä¸€æ¬¾jqueryå®ç°ç®€å•è®¡ç®—å™¨ä»£ç ã€‚è¯¥jqueryè®¡ç®—å™¨ä½¿ç”¨ Bootstrap 4è¿›è¡Œå¸ƒå±€ï¼Œå¹¶ç»“åˆmath.jsæ•°å­¦åº“ï¼Œå®ç°ç®€å•çš„åŠ å‡ä¹˜é™¤å’Œå¹³æ–¹ï¼Œå¼€æ–¹ç­‰æ•°å­¦è®¡ç®—ã€‚",
             "icon": {
                 "type": "fa",
                 "content": "calculator",
@@ -633,14 +633,14 @@
                 "y": "y*0.05"
             },
             "version": "1.0.0",
-            "poweredBy": "ËØ²ÄÀ´Ô´ÓÚÍøÂç",
+            "poweredBy": "ç´ ææ¥æºäºç½‘ç»œ",
             "resizable": true,
             "single": false,
             "size": {
                 "height": "496",
                 "width": "324"
             },
-            "title": "¿ÆÑ§¼ÆËãÆ÷",
+            "title": "ç§‘å­¦è®¡ç®—å™¨",
             "url": "https://appstore.ylui.yuri2.cn:/apps/calculator/index.html",
             "customTile": "",
             "urlRandomToken": true
@@ -673,7 +673,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "¿ÎÌÃÍ¬²½",
+            "title": "è¯¾å ‚åŒæ­¥",
             "url": "http://xxdlyzbb.gitee.io/nex-u/viewer.html",
             "customTile": "",
             "urlRandomToken": true
@@ -739,7 +739,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ßÙÁ¨ßÙÁ¨",
+            "title": "å“”å“©å“”å“©",
             "url": "https://www.bilibili.com",
             "customTile": "",
             "urlRandomToken": true
@@ -772,7 +772,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "QQÓÊÏä",
+            "title": "QQé‚®ç®±",
             "url": "https://mail.qq.com",
             "customTile": "",
             "urlRandomToken": true
@@ -805,7 +805,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "163ÓÊÏä",
+            "title": "163é‚®ç®±",
             "url": "https://mail.163.com",
             "customTile": "",
             "urlRandomToken": true
@@ -838,7 +838,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "É«²Ê±æÊ¶¶È²âÊÔ",
+            "title": "è‰²å½©è¾¨è¯†åº¦æµ‹è¯•",
             "url": "https://www.arealme.com/colors/cn",
             "customTile": "",
             "urlRandomToken": true
@@ -904,7 +904,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "²ËÄñ½Ì³Ì",
+            "title": "èœé¸Ÿæ•™ç¨‹",
             "url": "https://www.runoob.com",
             "customTile": "",
             "urlRandomToken": true
@@ -937,7 +937,7 @@
                 "height": "y*0.8-80",
                 "width": "x*0.8"
             },
-            "title": "ÖÇÑ§Íø",
+            "title": "æ™ºå­¦ç½‘",
             "url": "https://www.zhixue.com",
             "customTile": "",
             "urlRandomToken": true
@@ -978,11 +978,11 @@
     },
     "shortcuts": [
         {
-            "title": "ÍøÒ³",
+            "title": "ç½‘é¡µ",
             "children": [
                 {
                     "app": "yl-browser",
-                    "title": "ä¯ÀÀÆ÷",
+                    "title": "æµè§ˆå™¨",
                     "params": {},
                     "hash": ""
                 },
@@ -994,13 +994,13 @@
                 },
                 {
                     "app": "app-294",
-                    "title": "²ËÄñ½Ì³Ì",
+                    "title": "èœé¸Ÿæ•™ç¨‹",
                     "params": {},
                     "hash": ""
                 },
                 {
                     "app": "app-295",
-                    "title": "ÖÇÑ§Íø",
+                    "title": "æ™ºå­¦ç½‘",
                     "params": {},
                     "hash": ""
                 },
@@ -1020,39 +1020,39 @@
         },
         {
             "app": "app-192",
-            "title": "Î÷´°Öò",
+            "title": "è¥¿çª—çƒ›",
             "params": {},
             "hash": ""
         },
         {
-            "title": "±Ê¼Ç",
+            "title": "ç¬”è®°",
             "children": [
                 {
                     "app": "app-193",
-                    "title": "¼ò¼Ç",
+                    "title": "ç®€è®°",
                     "params": {},
                     "hash": ""
                 },
                 {
                     "app": "app-199",
-                    "title": "ÎªÖªÔÆ±Ê¼Ç",
+                    "title": "ä¸ºçŸ¥äº‘ç¬”è®°",
                     "params": {},
                     "hash": ""
                 }
             ]
         },
         {
-            "title": "»­°å",
+            "title": "ç”»æ¿",
             "children": [
                 {
                     "app": "app-194",
-                    "title": "¼¸ºÎ»­°å",
+                    "title": "å‡ ä½•ç”»æ¿",
                     "params": {},
                     "hash": ""
                 },
                 {
                     "app": "app-198",
-                    "title": "°×°å",
+                    "title": "ç™½æ¿",
                     "params": {},
                     "hash": ""
                 }
@@ -1060,12 +1060,12 @@
         },
         {
             "app": "app-197",
-            "title": "ÔªËØÖÜÆÚ±í",
+            "title": "å…ƒç´ å‘¨æœŸè¡¨",
             "params": {},
             "hash": ""
         },
         {
-            "title": "Éç½»",
+            "title": "ç¤¾äº¤",
             "children": [
                 {
                     "app": "bbbug",
@@ -1083,12 +1083,12 @@
         },
         {
             "app": "ylui-apps-calculator",
-            "title": "¿ÆÑ§¼ÆËãÆ÷",
+            "title": "ç§‘å­¦è®¡ç®—å™¨",
             "params": {},
             "hash": ""
         },
         {
-            "title": "Ó¢Óï",
+            "title": "è‹±è¯­",
             "children": [
                 {
                     "app": "app-195",
@@ -1098,48 +1098,48 @@
                 },
                 {
                     "app": "app-196",
-                    "title": "ÓĞµÀ·­Òë",
+                    "title": "æœ‰é“ç¿»è¯‘",
                     "params": {},
                     "hash": ""
                 }
             ]
         },
         {
-            "title": "ÊÓÆµ",
+            "title": "è§†é¢‘",
             "children": [
                 {
                     "app": "app-222",
-                    "title": "ßÙÁ¨ßÙÁ¨",
+                    "title": "å“”å“©å“”å“©",
                     "params": {},
                     "hash": ""
                 },
                 {
                     "app": "app-205",
-                    "title": "¿ÎÌÃÍ¬²½",
+                    "title": "è¯¾å ‚åŒæ­¥",
                     "params": {},
                     "hash": ""
                 }
             ]
         },
         {
-            "title": "ÓÊÏä",
+            "title": "é‚®ç®±",
             "children": [
                 {
                     "app": "app-223",
-                    "title": "QQÓÊÏä",
+                    "title": "QQé‚®ç®±",
                     "params": {},
                     "hash": ""
                 },
                 {
                     "app": "app-230",
-                    "title": "163ÓÊÏä",
+                    "title": "163é‚®ç®±",
                     "params": {},
                     "hash": ""
                 }
             ]
         },
         {
-            "title": "Ğ¡ÓÎÏ·",
+            "title": "å°æ¸¸æˆ",
             "children": [
                 {
                     "app": "2048",
@@ -1149,7 +1149,7 @@
                 },
                 {
                     "app": "app-232",
-                    "title": "É«²Ê±æÊ¶¶È²âÊÔ",
+                    "title": "è‰²å½©è¾¨è¯†åº¦æµ‹è¯•",
                     "params": {},
                     "hash": ""
                 }
@@ -1158,7 +1158,7 @@
     ],
     "tiles": [
         {
-            "title": "ÏµÍ³",
+            "title": "ç³»ç»Ÿ",
             "data": [
                 {
                     "x": 0,
@@ -1166,7 +1166,7 @@
                     "w": 4,
                     "h": 2,
                     "app": "yl-system",
-                    "title": "ÏµÍ³ÉèÖÃ",
+                    "title": "ç³»ç»Ÿè®¾ç½®",
                     "i": "110",
                     "params": {},
                     "hash": ""
@@ -1177,7 +1177,7 @@
                     "w": 2,
                     "h": 2,
                     "app": "yl-browser",
-                    "title": "ä¯ÀÀÆ÷",
+                    "title": "æµè§ˆå™¨",
                     "i": "146",
                     "params": {},
                     "hash": ""
@@ -1188,7 +1188,7 @@
                     "w": 2,
                     "h": 4,
                     "app": "ylui-apps-calculator",
-                    "title": "¿ÆÑ§¼ÆËãÆ÷",
+                    "title": "ç§‘å­¦è®¡ç®—å™¨",
                     "i": "287",
                     "params": {},
                     "hash": ""
@@ -1199,7 +1199,7 @@
                     "w": 1,
                     "h": 1,
                     "app": "yl-color-picker",
-                    "title": "È¡É«Æ÷",
+                    "title": "å–è‰²å™¨",
                     "i": "288",
                     "params": {},
                     "hash": ""
@@ -1207,7 +1207,7 @@
             ]
         },
         {
-            "title": "ÓéÀÖ",
+            "title": "å¨±ä¹",
             "data": [
                 {
                     "x": 0,
@@ -1226,7 +1226,7 @@
                     "w": 4,
                     "h": 4,
                     "app": "app-222",
-                    "title": "ßÙÁ¨ßÙÁ¨",
+                    "title": "å“”å“©å“”å“©",
                     "i": "276",
                     "params": {},
                     "hash": ""
@@ -1259,7 +1259,7 @@
                     "w": 2,
                     "h": 1,
                     "app": "app-232",
-                    "title": "É«²Ê±æÊ¶¶È²âÊÔ",
+                    "title": "è‰²å½©è¾¨è¯†åº¦æµ‹è¯•",
                     "i": "281",
                     "params": {},
                     "hash": ""
@@ -1267,7 +1267,7 @@
             ]
         },
         {
-            "title": "Ñ§Ï°",
+            "title": "å­¦ä¹ ",
             "data": [
                 {
                     "x": 0,
@@ -1286,7 +1286,7 @@
                     "w": 2,
                     "h": 1,
                     "app": "app-194",
-                    "title": "¼¸ºÎ»­°å",
+                    "title": "å‡ ä½•ç”»æ¿",
                     "i": "277",
                     "params": {},
                     "hash": ""
@@ -1297,7 +1297,7 @@
                     "w": 4,
                     "h": 4,
                     "app": "app-205",
-                    "title": "¿ÎÌÃÍ¬²½",
+                    "title": "è¯¾å ‚åŒæ­¥",
                     "i": "278",
                     "params": {},
                     "hash": ""
@@ -1308,7 +1308,7 @@
                     "w": 2,
                     "h": 2,
                     "app": "app-199",
-                    "title": "ÎªÖªÔÆ±Ê¼Ç",
+                    "title": "ä¸ºçŸ¥äº‘ç¬”è®°",
                     "i": "282",
                     "params": {},
                     "hash": ""
@@ -1319,7 +1319,7 @@
                     "w": 5,
                     "h": 2,
                     "app": "app-196",
-                    "title": "ÓĞµÀ·­Òë",
+                    "title": "æœ‰é“ç¿»è¯‘",
                     "i": "283",
                     "params": {},
                     "hash": ""
@@ -1330,7 +1330,7 @@
                     "w": 2,
                     "h": 2,
                     "app": "app-197",
-                    "title": "ÔªËØÖÜÆÚ±í",
+                    "title": "å…ƒç´ å‘¨æœŸè¡¨",
                     "i": "284",
                     "params": {},
                     "hash": ""
@@ -1350,13 +1350,13 @@
             },
             {
                 "app": "yl-browser",
-                "title": "ä¯ÀÀÆ÷",
+                "title": "æµè§ˆå™¨",
                 "params": {},
                 "hash": ""
             },
             {
                 "app": "yl-system",
-                "title": "ÏµÍ³ÉèÖÃ"
+                "title": "ç³»ç»Ÿè®¾ç½®"
             }
         ],
         "menu": {
@@ -1365,7 +1365,7 @@
                 "children": {
                     "itemPushed-240": {
                         "app": "app-230",
-                        "title": "163ÓÊÏä",
+                        "title": "163é‚®ç®±",
                         "params": {},
                         "hash": ""
                     },
@@ -1388,7 +1388,7 @@
                 "children": {
                     "itemPushed-243": {
                         "app": "app-222",
-                        "title": "ßÙÁ¨ßÙÁ¨",
+                        "title": "å“”å“©å“”å“©",
                         "params": {},
                         "hash": ""
                     },
@@ -1400,7 +1400,7 @@
                     },
                     "itemPushed-246": {
                         "app": "app-198",
-                        "title": "°×°å",
+                        "title": "ç™½æ¿",
                         "params": {},
                         "hash": ""
                     }
@@ -1411,7 +1411,7 @@
                 "children": {
                     "itemPushed-300": {
                         "app": "app-294",
-                        "title": "²ËÄñ½Ì³Ì",
+                        "title": "èœé¸Ÿæ•™ç¨‹",
                         "params": {},
                         "hash": ""
                     }
@@ -1444,13 +1444,13 @@
                 "children": {
                     "itemPushed-245": {
                         "app": "app-194",
-                        "title": "¼¸ºÎ»­°å",
+                        "title": "å‡ ä½•ç”»æ¿",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-251": {
                         "app": "app-193",
-                        "title": "¼ò¼Ç",
+                        "title": "ç®€è®°",
                         "params": {},
                         "hash": ""
                     }
@@ -1461,13 +1461,13 @@
                 "children": {
                     "itemPushed-239": {
                         "app": "ylui-apps-calculator",
-                        "title": "¿ÆÑ§¼ÆËãÆ÷",
+                        "title": "ç§‘å­¦è®¡ç®—å™¨",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-248": {
                         "app": "app-205",
-                        "title": "¿ÎÌÃÍ¬²½",
+                        "title": "è¯¾å ‚åŒæ­¥",
                         "params": {},
                         "hash": ""
                     }
@@ -1478,7 +1478,7 @@
                 "children": {
                     "itemPushed-85": {
                         "app": "yl-browser",
-                        "title": "ä¯ÀÀÆ÷",
+                        "title": "æµè§ˆå™¨",
                         "params": {},
                         "hash": ""
                     }
@@ -1511,13 +1511,13 @@
                 "children": {
                     "itemPushed-264": {
                         "app": "yl-color-picker",
-                        "title": "È¡É«Æ÷",
+                        "title": "å–è‰²å™¨",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-268": {
                         "app": "app-223",
-                        "title": "QQÓÊÏä",
+                        "title": "QQé‚®ç®±",
                         "params": {},
                         "hash": ""
                     }
@@ -1528,7 +1528,7 @@
                 "children": {
                     "itemPushed-259": {
                         "app": "app-232",
-                        "title": "É«²Ê±æÊ¶¶È²âÊÔ",
+                        "title": "è‰²å½©è¾¨è¯†åº¦æµ‹è¯•",
                         "params": {},
                         "hash": ""
                     }
@@ -1539,7 +1539,7 @@
                 "children": {
                     "itemPushed-247": {
                         "app": "app-199",
-                        "title": "ÎªÖªÔÆ±Ê¼Ç",
+                        "title": "ä¸ºçŸ¥äº‘ç¬”è®°",
                         "params": {},
                         "hash": ""
                     },
@@ -1556,13 +1556,13 @@
                 "children": {
                     "itemPushed-96": {
                         "app": "yl-system",
-                        "title": "ÏµÍ³ÉèÖÃ",
+                        "title": "ç³»ç»Ÿè®¾ç½®",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-257": {
                         "app": "app-192",
-                        "title": "Î÷´°Öò",
+                        "title": "è¥¿çª—çƒ›",
                         "params": {},
                         "hash": ""
                     }
@@ -1573,19 +1573,19 @@
                 "children": {
                     "itemPushed-258": {
                         "app": "app-197",
-                        "title": "ÔªËØÖÜÆÚ±í",
+                        "title": "å…ƒç´ å‘¨æœŸè¡¨",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-263": {
                         "app": "yl-server",
-                        "title": "YLUI¹Ù·½ºóÌ¨·şÎñ",
+                        "title": "YLUIå®˜æ–¹åå°æœåŠ¡",
                         "params": {},
                         "hash": ""
                     },
                     "itemPushed-265": {
                         "app": "app-196",
-                        "title": "ÓĞµÀ·­Òë",
+                        "title": "æœ‰é“ç¿»è¯‘",
                         "params": {},
                         "hash": ""
                     }
@@ -1596,7 +1596,7 @@
                 "children": {
                     "itemPushed-297": {
                         "app": "app-295",
-                        "title": "ÖÇÑ§Íø",
+                        "title": "æ™ºå­¦ç½‘",
                         "params": {},
                         "hash": ""
                     }
