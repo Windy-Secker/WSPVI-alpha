@@ -9,4 +9,4 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/
 2048(详见2048同目录下的readme)[^注]</br>
 点灯 - 引自[脚本之家](https://www.jb51.com)，略有改动</br>
 水印js - 引自[CSDN博客](https://www.csdn.net)，略有改动</br>
-[^注]汉化版权为本人所有
+[^注](汉化版权为本人所有)
