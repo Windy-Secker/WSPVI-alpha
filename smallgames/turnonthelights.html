@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Turn the light</title>
+    <style>
+body
+{
+    font-family: 'Segoe UI', sans-serif;
+}
+span {
+    font-style: italic
+}
+
+.darkButton {
+    width:70px;
+    height:70px;
+    background-color:green;
+}
+
+.lightButton {
+    width:70px;
+    height:70px;
+    background-color:lightblue;
+}
+
+ .return {
+    font-size:small;
+ }
+    </style>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(startButton).click(function () {
+                if (step > 0) {
+                    if (confirm('你确定要重新开始游戏么？') === false)
+                        return;
+                }
+
+                if (isNaN($(X).val()) || isNaN($(Y).val())) {
+                    alert('横纵的单元格中只能输入数字。');
+                    return;
+                }
+                else if ($(X).val() < 4 || $(Y).val() < 4 || $(X).val() >= 10 || $(Y).val() >= 10) {
+                    alert('横纵的数量不能小于 4，且不能大于 9。');
+                    return;
+                }
+
+                startGame();
+            });     
+        });
+    </script>
+
+    <script>
+        var maxX, maxY;
+
+        var step = 0;
+
+        function startGame() {
+            maxX = $(X).val();
+            maxY = $(Y).val();
+            makeGrid(maxX, maxY);
+            step = 0;
+            document.getElementById("step").innerHTML = step;
+        }
+
+        function makeGrid(x, y) {
+            $(".darkButton").remove();
+            $(".lightButton").remove();
+            $(".return").remove();
+
+            var grid = document.getElementById('content');
+
+            for (var i = 1; i <= x; i++) {
+                for (var j = 1; j <= y; j++) {
+                    var button = createButton('bt' + i + j);
+
+                    grid.appendChild(button);
+                }
+
+                var ret = document.createElement('br');
+                ret.className = "return";
+
+                grid.appendChild(ret);
+            }
+
+            $(".darkButton").click(function () {
+                changeButton(this.id);
+
+                var x = this.id.charAt(2);
+                var y = this.id.charAt(3);
+
+                if (x - 1 > 0) {
+                    changeButton('bt' + (x - 1) + y);
+                }
+                if (y - 1 > 0) {
+                    changeButton('bt' + x + (y - 1));
+                }
+
+                var newX = 1 + parseInt(x);
+                if (x + 1 <= maxX) {
+                    changeButton('bt' + newX + y);
+                }
+                var newY = 1 + parseInt(y);
+                if (y + 1 <= maxY) {
+                    changeButton('bt' + x + newY);
+                }
+
+                step++;
+
+                document.getElementById("step").innerHTML = step;
+            });
+        }
+
+        function changeButton(id) {
+            var button = document.getElementById(id);
+
+            if (button.className === "darkButton") {
+                button.className = "lightButton";
+            }
+            else {
+                button.className = "darkButton";
+            }
+        }
+
+        function createButton(id) {
+            var button = document.createElement('button');
+            button.id = id;
+            button.className = "darkButton";
+            return button;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Turn all the light bulbs if you can!</h1>
+    <div id="option">
+        <label for="X">横向：</label>
+        <input type="number" id="X" value="5" />
+        <label for="Y">纵向：</label>
+        <input type="number" id="Y" value="4"/>
+        <button id="startButton">开始游戏</button>
+    </div>
+    <div id="content">
+
+    </div>
+    <div id="stepCounter">
+        您已经移动了 <label id="step">0</label> 步。
+    </div>
+</body>
+</html>
