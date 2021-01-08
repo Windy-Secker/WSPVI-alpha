@@ -7,11 +7,11 @@
 <!ELEMENT ariwriting2 (#PCDATA)>
 <!ELEMENT printing1 (#PCDATA)>
 <!ELEMENT printing2 (#PCDATA)>
-<!ELEMENT maincolor (green,red,blue,night,white,yellow)>
+<!ELEMENT maincolor (green,red,blue,night,snow,yellow)>
 <!ELEMENT green (#PCDATA)>
 <!ELEMENT red (#PCDATA)>
 <!ELEMENT blue (#PCDATA)>
 <!ELEMENT night (#PCDATA)>
-<!ELEMENT white (#PCDATA)>
+<!ELEMENT snow (#PCDATA)>
 <!ELEMENT yellow (#PCDATA)>
 ]>
