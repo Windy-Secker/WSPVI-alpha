@@ -1,0 +1,20 @@
+<?xml version="1.0.0" encoding="utf-8">
+<!DOCTYPE ini SYSTEM "ini.dtd">
+<ini>
+  <font>
+    <handwriting1></handwriting1>
+    <handwriting2></handwriting2>
+    <artwriting1></artwriting1>
+    <artwriting2></artwriting2>
+    <printing1></printing1>
+    <printing2></printing2>
+  </font>
+  <maincolor>
+    <green>green.css</green>
+    <red>red.css</red>
+    <blue>blue.css</blue>
+    <night>night.css</night>
+    <snow>snow.css</snow>
+    <yellow>yellow.css</yellow>
+  </maincolor>
+<ini>
