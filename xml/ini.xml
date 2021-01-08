@@ -2,12 +2,12 @@
 <!DOCTYPE ini SYSTEM "ini.dtd">
 <ini>
   <font>
-    <handwriting1></handwriting1>
-    <handwriting2></handwriting2>
-    <artwriting1></artwriting1>
-    <artwriting2></artwriting2>
-    <printing1></printing1>
-    <printing2></printing2>
+    <handwriting1>h1.ttf</handwriting1>
+    <handwriting2>h2.ttf</handwriting2>
+    <artwriting1>a1.ttf</artwriting1>
+    <artwriting2>a2.ttf</artwriting2>
+    <printing1>p1.ttf</printing1>
+    <printing2>p2.ttf</printing2>
   </font>
   <maincolor>
     <green>green.css</green>
