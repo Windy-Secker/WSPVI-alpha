@@ -1,1 +1,84 @@
 <!DOCTYPE html>
+<html>
+ <head>
+ <!--环境设置-->
+  <link rel="shortcut icon" type="image/x-icon" href="index.ico">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <meta charset="UTF-8">
+  <meta name="Description" content="一个不成熟的网址导航">
+  <title>WSPVI0.1.0测试版</title>
+ </head>
+ 
+ <!--顶部导航栏-->
+    <body>
+	<style>ul{list-style:none}</style>
+
+	  <div class="top">
+        <center>
+		<!--一级导航栏菜单-->
+          <ul>
+            <li style="float:left"><a href="pad.html">主页</a></li>
+            <li><a href="find.html">搜索</a></li>
+            <li><a>小游戏</a>
+              <ul>
+			<!--二级菜单-->
+                 <li><a href="smallgames/turnonthelights.html">点灯</a></li>
+		 <li><a href="smallgames/2048汉化版/2048-zh-cn">2048</a></li>
+             </ul>
+            </li>
+            <li><a>空间</a>
+			<!--二级菜单-->
+            <ul>
+              <li><a href="https://user.qzone.qq.com/1765538384/infocenter">QQ空间</a></li>
+              <li><a href="https://space.bilibili.com/567626166">BiliBili空间</a></li>
+              <li><a href="https://music.163.com/#/artist?id=36703174">网易云歌手页</a></li>
+            </ul>
+            </li> 
+              <li style="float:right"><a>其它</a>
+              <ul>
+                  <li><a href="about.html">关于</a></li>
+		  <li><a>设置</a></li>
+		  <li><a href="index.html">COM</a></li>
+	      </ul>
+              </li>
+          </ul>
+        </center>      
+      </div>
+
+
+<!--搜索菜单的引用(即调用其他搜索引擎)-->
+    <div class="search">
+      <form action="http://www.baidu.com/baidu">
+      <a href="http://www.baidu.com/"></a>
+      <input name=tn type=hidden value=baidu> 
+      <input type=text name=word size=30>
+      <input id="button" type="submit" value="百度">
+      <table bgcolor="#FFFFFF"><tr><td>
+    </div>
+    
+	<div class="url1">
+	<p>暂时只做了这一个...</p>
+	<ul>
+	    <li><h4>其它搜索引擎入口（暂时没做输入框）</h4></li>
+		<li><a href="https://www.so.com/">360搜索</a></li>
+		<li><a href="https://www.sogou.com">搜狗搜索</a></li>
+		<li><a href="https://cn.bing.com">必应搜索</a></li>
+		<li><a href="https://yandex.com">Yandex搜索</a></li>
+		<li><a href="https://www.google.com">谷歌搜索（能不能用我就不知道了）</a></li>
+	</ul>
+	</div>
+
+<!--网站水印（第一次用JavaScript）-->
+<div class="img">
+
+<div style="Z-INDEX: 99; POSITION: absolute" id=img><IMG border=0 alt=img src="watermarks\watermarks.png" width=200 height=200></div>
+
+<SCRIPT src="watermarks\watermarks.js"></script>
+
+</div>
+
+<!--版权声明-->
+	  <div class="footer">Version 0.1.0    Copyright © 2020 <a href="mailto:&@111;&@116;&@121;&@97;&@110;&@103;&@109;&@97;&@108;&@101;&@50;&@64;&@113;&@113;&@46;&@99;&@111;&@109" target="_blank">风擎天下</a></div>
+	</body>
+
+  </html>
