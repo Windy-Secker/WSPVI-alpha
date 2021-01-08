@@ -1,0 +1,17 @@
+<!DOCTYPE ini[
+<!ELEMENT ini (font,maincolor)>
+<!ELEMENT font (handwriting1,handwriting2,artwriting1,artwriting2,printing1,printing2)>
+<!ELEMENT handwriting1 (#PCDATA)>
+<!ELEMENT handwriting2 (#PCDATA)>
+<!ELEMENT artwriting1 (#PCDATA)>
+<!ELEMENT ariwriting2 (#PCDATA)>
+<!ELEMENT printing1 (#PCDATA)>
+<!ELEMENT printing2 (#PCDATA)>
+<!ELEMENT maincolor (green,red,blue,night,white,yellow)>
+<!ELEMENT green (#PCDATA)>
+<!ELEMENT red (#PCDATA)>
+<!ELEMENT blue (#PCDATA)>
+<!ELEMENT night (#PCDATA)>
+<!ELEMENT white (#PCDATA)>
+<!ELEMENT yellow (#PCDATA)>
+]>
