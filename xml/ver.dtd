@@ -1,5 +1,0 @@
-<!DOCTYPE ver[
-<!ELEMENT num (version,copyear)>
-<!ELEMENT version (#PCDATA)>
-<!ELEMENT copyear (#PCDATA)>
-]>
