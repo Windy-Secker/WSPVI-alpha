@@ -11,7 +11,7 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 [FontAwesome4.7.0](https://www.fontawesome.com) - Copyright©DaveGandy</br>
 [^注]:汉化版权为本人所有</br>
 
-**更新日志**
+<b>更新日志</b>
 >0.1.0:项目成立</br>
 -----
 >0.1.1</br>
