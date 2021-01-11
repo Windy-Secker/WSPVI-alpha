@@ -29,5 +29,5 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 >-修改了html结构使其更加严谨</br>
 >-修正了语法错误</br>
 -----
-0.1.3</br>
+>0.1.3</br>
 >-将Git库同步到了gitee
