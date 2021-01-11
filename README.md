@@ -1,4 +1,4 @@
-# WSPVI-alpha 0.1.2
+# WSPVI-alpha 0.1.3
 Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 抑或是我的网址导航（持续开发中）</br>
 基于*HTML5/CSS3/JavaScript/SCSS/Ruby/JQuerty*的网址导航
