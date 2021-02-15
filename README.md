@@ -1,4 +1,4 @@
-# WSPVI-alpha 0.1.3
+# WSPVI-alpha 0.1.4
 Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 抑或是我的网址导航（持续开发中）</br>
 基于*HTML5/CSS3/JavaScript/SCSS/Ruby/JQuerty*的网址导航
@@ -31,3 +31,6 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 -----
 >0.1.3</br>
 >-将Git库同步到了gitee
+-----
+>0.1.4</br>
+>-扩充了小游戏数量
