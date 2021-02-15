@@ -9,6 +9,7 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 2048()(详见2048同目录下的readme)[^注]</br>
 点灯 - 引自[脚本之家](https://www.jb51.com)，略有改动</br>
 [FontAwesome4.7.0](https://www.fontawesome.com) - Copyright©DaveGandy</br>
+别踩白块儿 - 蓝本引自[博客园](https://www.cnblogs.com)@凉城旧巷旧少年[（点我进入原文）](https://www.cnblogs.com/jiangshuai52511/p/5274792.html)，略有改动</br>
 [^注]:汉化版权为本人所有</br>
 
 ***更新日志***
@@ -30,7 +31,9 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 >-修正了语法错误</br>
 -----
 >0.1.3</br>
->-将Git库同步到了gitee
+>-将Git库同步到了gitee</br>
 -----
 >0.1.4</br>
->-扩充了小游戏数量
+>-扩充了小游戏数量</br>
+>-修正了语法错误</br>
+>-去除了部分目录的中文路径</br>
