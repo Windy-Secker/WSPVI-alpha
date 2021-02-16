@@ -218,6 +218,7 @@ a:active{
 
 /*图片廊样式*/
 div.img {
+    top:50px
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
