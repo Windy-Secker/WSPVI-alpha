@@ -51,18 +51,86 @@
 
 <!--搜索菜单的引用(即调用其他搜索引擎)-->
     <div class="search">
-      <form action="http://www.baidu.com/baidu" target="_blank">
-      <a href="http://www.baidu.com/"></a>
-      <input name=tn type=hidden value=baidu>
-      <input type=text name=word size=30>
-      <input id="button" type="submit" value="百度">
-      <table bgcolor="#FFFFFF"><tr><td>
+
+<FORM name="f_g1" onsubmit="return(s_1())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="Google搜索(需翻墙)">        <button type="submit" class="btn btn-default" onclick="s_1()">谷歌</button>
+
+        </div>
+
+      </form>
+
+<FORM name="f_g2" onsubmit="return(s_2())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="baidu搜索">        <button type="submit" class="btn btn-default" onclick="s_2()">百度</button>
+
+        </div>
+
+      </form>
+
+<FORM name="f_g3" onsubmit="return(s_3())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="sougou搜索">        <button type="submit" class="btn btn-default" onclick="s_3()">搜狗</button>
+
+        </div>
+
+      </form>
+
+<FORM name="f_g5" onsubmit="return(s_5())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="Bing搜索">        <button type="submit" class="btn btn-default" onclick="s_5()">必应</button>
+
+        </div>
+        
+      </form>
+
+<FORM name="f_g4" onsubmit="return(s_4())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="souku搜索">        <button type="submit" class="btn btn-default" onclick="s_4()">优酷</button>
+
+        </div>
+
+      </form>
+
+<FORM name="f_g6" onsubmit="return(s_6())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="百度图片搜索">        <button type="submit" class="btn btn-default" onclick="s_6()">图片</button>
+
+        </div>
+
+      </form>
+
+
+<FORM name="f_g7" onsubmit="return(s_7())" class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+
+          <input  onblur="if (value ==''){value=''}" onfocus="this.select()" name="key" type="text" class="form-control" placeholder="Yandex搜索">        <button type="submit" class="btn btn-default" onclick="s_7()">Yandex</button>
+
+        </div>
+
+      </form>
+
+<script src="js/watermarks.js"></script>
+
     </div>
     
 	<div class="url1">
-	<p>暂时只做了这一个...</p>
+	<p>暂时只做了这几个...</p>
 	<ul>
-	    <li><h4><i class="fa fa-send"></i>    其它搜索引擎入口（暂时没做输入框）</h4></li>
+	    <li><h4><i class="fa fa-send"></i>   直接跳转到搜索引擎</h4></li>
 		<li><a href="https://www.so.com/" target="_blank"><i class="fa fa-search"></i> 360搜索</a></li>
 		<li><a href="https://www.sogou.com" target="_blank"><i class="fa fa-search"></i>  搜狗搜索</a></li>
 		<li><a href="https://cn.bing.com" target="_blank"><i class="fa fa-search"></i>  必应搜索</a></li>
