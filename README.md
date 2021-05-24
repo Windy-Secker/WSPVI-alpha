@@ -1,4 +1,4 @@
-# WSPVI-alpha 0.1.4
+# WSPVI-alpha 0.1.5
 Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 抑或是我的网址导航（持续开发中）</br>
 基于*HTML5/CSS3/JavaScript/SCSS/Less/JQuerty*的网址导航
@@ -40,5 +40,6 @@ Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 >-去除了部分目录的中文路径</br>
 >-上传少量组件</br>
 -----
->0.1.5</br>
->-加入了更多快捷搜索栏(仅电脑端)</br>
+>0.1.5(电脑端更新)</br>
+>-加入了更多快捷搜索栏</br>
+>-加入了链接跳转框(覆盖本网页)</br>
