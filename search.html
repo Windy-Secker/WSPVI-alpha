@@ -51,7 +51,12 @@
 
 <!--搜索菜单的引用(即调用其他搜索引擎)-->
     <div class="search">
-
+<input type="text" id="jumpto" value="" placeholder="输入网址"><button type="submit" value="跳转" onclick="jumpto()">
+<script>
+function jumpto()
+var utext=document.getElementsById("jumpto")
+window.onload=utext.value
+</script>
 <FORM name="f_g1" onsubmit="return(s_1())" class="navbar-form navbar-left" role="search">
 
         <div class="form-group">
