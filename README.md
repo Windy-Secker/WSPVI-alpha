@@ -1,17 +1,16 @@
 # WSPVI-alpha 0.1.5
 Windy Secker's Pages Viewer in Internet(风擎天下的网页查看器)/</br>
 抑或是我的网址导航（持续开发中）</br>
-基于*HTML5/CSS3/JavaScript/SCSS/Less/JQuerty*的网址导航
+基于*HTML5/CSS3/JavaScript/FontAwesome*的网址导航
 >Copyright © 2020 风擎天下（Windy_Secker）</br>
 >邮箱：ouyangmale2@qq.com</br>
 - - - - - -
 引用的他人代码:</br>
-2048 - 详见2048同目录下的readme[^注]</br>
+2048 - 详见2048同目录下的readme(汉化版权为本人所有)</br>
 点灯 - 引自[脚本之家](https://www.jb51.com)，略有改动</br>
 [FontAwesome4.7.0](https://www.fontawesome.com) - Copyright©DaveGandy</br>
 别踩白块儿 - 蓝本引自[博客园](https://www.cnblogs.com)@凉城旧巷旧少年[（点我进入原文）](https://www.cnblogs.com/jiangshuai52511/p/5274792.html)，略有改动</br>
 扫雷 - 详见minesweeping同目录下的readme</br>
-[^注]:汉化版权为本人所有</br>
 
 ***更新日志***
 >0.1.0:项目成立</br>
